@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2D72303145F05C500D381E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B2D72302145F05C500D381E5 /* main.c */; };
+		B2D72305145F05C500D381E5 /* LC_Vida_Academica.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D72304145F05C500D381E5 /* LC_Vida_Academica.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2D722FC145F05C500D381E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B2D72305145F05C500D381E5 /* LC_Vida_Academica.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2D722FE145F05C500D381E5 /* LC Vida Academica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC Vida Academica"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D72302145F05C500D381E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B2D72304145F05C500D381E5 /* LC_Vida_Academica.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LC_Vida_Academica.1; sourceTree = "<group>"; };
+		B2D72329145F1DE800D381E5 /* Universidades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universidades.h; sourceTree = "<group>"; };
+		B2F4159D146064D50019FBDA /* telasPadronizadas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = telasPadronizadas.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D722FB145F05C500D381E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D722F3145F05C500D381E5 = {
+			isa = PBXGroup;
+			children = (
+				B2D72301145F05C500D381E5 /* LC Vida Academica */,
+				B2D722FF145F05C500D381E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D722FF145F05C500D381E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D722FE145F05C500D381E5 /* LC Vida Academica */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D72301145F05C500D381E5 /* LC Vida Academica */ = {
+			isa = PBXGroup;
+			children = (
+				B2D72302145F05C500D381E5 /* main.c */,
+				B2F4159D146064D50019FBDA /* telasPadronizadas.h */,
+				B2D72329145F1DE800D381E5 /* Universidades.h */,
+				B2D72304145F05C500D381E5 /* LC_Vida_Academica.1 */,
+			);
+			path = "LC Vida Academica";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D722FD145F05C500D381E5 /* LC Vida Academica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D72308145F05C500D381E5 /* Build configuration list for PBXNativeTarget "LC Vida Academica" */;
+			buildPhases = (
+				B2D722FA145F05C500D381E5 /* Sources */,
+				B2D722FB145F05C500D381E5 /* Frameworks */,
+				B2D722FC145F05C500D381E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LC Vida Academica";
+			productName = "LC Vida Academica";
+			productReference = B2D722FE145F05C500D381E5 /* LC Vida Academica */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D722F5145F05C500D381E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Terra Propaganda Digital";
+			};
+			buildConfigurationList = B2D722F8145F05C500D381E5 /* Build configuration list for PBXProject "LC Vida Academica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2D722F3145F05C500D381E5;
+			productRefGroup = B2D722FF145F05C500D381E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D722FD145F05C500D381E5 /* LC Vida Academica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D722FA145F05C500D381E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D72303145F05C500D381E5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2D72306145F05C500D381E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2D72307145F05C500D381E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2D72309145F05C500D381E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2D7230A145F05C500D381E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D722F8145F05C500D381E5 /* Build configuration list for PBXProject "LC Vida Academica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D72306145F05C500D381E5 /* Debug */,
+				B2D72307145F05C500D381E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D72308145F05C500D381E5 /* Build configuration list for PBXNativeTarget "LC Vida Academica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D72309145F05C500D381E5 /* Debug */,
+				B2D7230A145F05C500D381E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D722F5145F05C500D381E5 /* Project object */;
+}
